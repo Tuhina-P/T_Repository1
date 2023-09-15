@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the value of n");
+		int n = sc.nextInt();
+		int i = n*(n+1)/2;
+		System.out.println("The sum of first n natural nos. is " + i);
+	}
+}
